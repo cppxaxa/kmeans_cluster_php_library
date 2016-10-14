@@ -17,3 +17,6 @@ $obj->set[] = new DataSet(30, 20);<br/>
 $obj->set[] = new DataSet(35, 30);<br/>
 <br/>
 echo kmeans( json_encode($obj) );<br/>
+
+# Reference
+http://dni-institute.in/blogs/k-means-clustering-algorithm-explained/

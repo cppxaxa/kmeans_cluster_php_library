@@ -1,6 +1,9 @@
 # K-MEANS Clusters PHP Library
 It is a simple PHP library to integrate and get clusters with implementation of kmeans
 
+# Live Demo
+http://spider.nitt.edu/~cppxaxa/kmeans/
+
 # Usage
 You need to provide k value to get clusters.
 

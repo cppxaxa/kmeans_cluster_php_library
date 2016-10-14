@@ -8,12 +8,12 @@ http://spider.nitt.edu/~cppxaxa/kmeans/
 You need to provide k value to get clusters.
 
 $obj = new Wrapper();<br/>
-$obj->k = 2;
-$obj->limit = 10;
-$obj->set = array();
-$obj->set[] = new DataSet(10, 20);
-$obj->set[] = new DataSet(10, 21);
-$obj->set[] = new DataSet(30, 20);
-$obj->set[] = new DataSet(35, 30);
-
-echo kmeans( json_encode($obj) );
+$obj->k = 2;<br/>
+$obj->limit = 10;<br/>
+$obj->set = array();<br/>
+$obj->set[] = new DataSet(10, 20);<br/>
+$obj->set[] = new DataSet(10, 21);<br/>
+$obj->set[] = new DataSet(30, 20);<br/>
+$obj->set[] = new DataSet(35, 30);<br/>
+<br/>
+echo kmeans( json_encode($obj) );<br/>

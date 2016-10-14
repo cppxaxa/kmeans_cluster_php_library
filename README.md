@@ -7,7 +7,7 @@ http://spider.nitt.edu/~cppxaxa/kmeans/
 # Usage
 You need to provide k value to get clusters.
 
-$obj = new Wrapper();
+$obj = new Wrapper();<br/>
 $obj->k = 2;
 $obj->limit = 10;
 $obj->set = array();

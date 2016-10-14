@@ -1,6 +1,6 @@
 {
   "name": "Kmeans cluster PHP library",
   "tagline": "PHP Library for Implementation of kmeans clustering",
-  "body": "# K-MEANS Clusters PHP Library\r\nIt is a simple PHP library to integrate and get clusters with implementation of kmeans\r\n\r\n# Live Demo\r\nhttp://spider.nitt.edu/~cppxaxa/kmeans/\r\n\r\n# Usage\r\nYou need to provide k value to get clusters.\r\n\r\n$obj = new Wrapper();\r\n$obj->k = 2;\r\n$obj->limit = 10;\r\n$obj->set = array();\r\n$obj->set[] = new DataSet(10, 20);\r\n$obj->set[] = new DataSet(10, 21);\r\n$obj->set[] = new DataSet(30, 20);\r\n$obj->set[] = new DataSet(35, 30);\r\n\r\necho kmeans( json_encode($obj) );\r\n",
+  "body": "# K-MEANS Clusters PHP Library\r\nIt is a simple PHP library to integrate and get clusters with implementation of kmeans\r\n\r\n# Live Demo\r\nhttp://spider.nitt.edu/~cppxaxa/kmeans/\r\n\r\n# Usage\r\nYou need to provide k value to get clusters.\r\n\r\n$obj = new Wrapper();<br/>\r\n$obj->k = 2;<br/>\r\n$obj->limit = 10;<br/>\r\n$obj->set = array();<br/>\r\n$obj->set[] = new DataSet(10, 20);<br/>\r\n$obj->set[] = new DataSet(10, 21);<br/>\r\n$obj->set[] = new DataSet(30, 20);<br/>\r\n$obj->set[] = new DataSet(35, 30);<br/>\r\n<br/>\r\necho kmeans( json_encode($obj) );\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
